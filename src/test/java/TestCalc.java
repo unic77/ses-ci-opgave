@@ -20,6 +20,7 @@ public class TestCalc{
         Assertions.assertEquals(2, calc.add());
     }
 
+    @Test
     public void mustReturnEen() {
         Calculator calc = new Calculator(1,1);
         Assertions.assertEquals(1, calc.add());
